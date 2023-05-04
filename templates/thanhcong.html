@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>VNU</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+  <meta name="theme-color" content="#0099ff" />
+  <meta http-equiv="Content-Language" content="VN" />
+  <meta name="description" content="VNU" />
+  <meta name="keywords" content="" />
+  <meta property="og:url" name="og:url" content="" data-app />
+  <meta property="og:type" name="og:type" content="website" data-app />
+  <meta property="og:description" name="og:description" content="VNU" data-app />
+  <meta property="og:title" name="og:title" content="VNU" data-app />
+  <meta property="og:image" name="og:image" content="http://tonvietphap.24h.co/uploaded/logo/logo.png" data-app />
+
+  <link href="/favicon.png" rel="shortcut icon" />
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <link rel="stylesheet" type="text/css" href="/css/grid.css" />
+  <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+  <link rel="stylesheet" type="text/css" href="/css/swiper.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/fonts/myriad-pro-cufonfonts-webfont/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/fontawesome-5.12.1/fontanwesome-pro/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/jquery.mmenu.all.css" />
+  <link rel="stylesheet" href="/css/jquery-ui.css" />
+  <script src="/js/jquery-1.10.1.min.js"></script>
+  <script src="/js/swiper.min.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/jquery.form.min.js"></script>
+  <script src="/js/jquery.mmenu.min.all.js"></script>
+  <script src="/js/jquery.quick.pagination.min.js"></script>
+</head>
+
+<body>
+<div id="page">
+    <!-- header pc -->
+    <div class="header-login">
+        <div class="grid">
+          <div class="flex-container flex-flex-end">
+            
+                <a href="#" class="btn btn-dangnhap"> <i class="fas fa-sign-in"></i> Đăng nhập</a>
+                <a href="#" class="btn btn-dangky"><i class="far fa-user"></i> Đăng ký thành viên</a>
+           
+        </div>
+        </div>
+    </div>
+    <div class="top-header hide-on-pad  hide-on-mobile">
+        <div class="grid">
+            <div class="flex-container align-center">
+                <div class="cell-2-3 tab-cell-1-1">
+                    <div class="d-flex align-center">
+                      <a href="/templates/index.html">  <img class="logo"  src="/uploaded/logo/logo.png" alt=""></a>
+                      <div class="title-image">
+                        <img src="/uploaded/files/header-title.png" alt="">
+                      </div>
+                    </div>
+                </div>
+                <div class="cell-1-3 hide-on-mobile ">
+                  <div class="search-pc">
+                    <form action="/search/" method="get" id="searchformtab">
+                      <input name="qr" class="kw" placeholder="Tìm kiếm " type="text">
+                        <a href="#" class="submit-search-pc" onClick="$('#searchformtab').submit();
+                            return false;">  <i class="fa fa-search" aria-hidden="true"></i> </a>
+  
+                     
+                    </form>
+                  </div>
+                
+                    <div class="lang">
+                      <a href="#" class="vi"></a>
+                      <a href="#" class="en"></a>
+                    </div>
+                  
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header class="header hide-on-pad hide-on-tab">
+      <div class="grid">
+
+        <div class="flex-container flex-centered">
+            <div class="menubar">
+              <ul class="nav  hide-on-mobile">
+                <li class="">
+                   <a href="/templates/about1.html" class=""><span> Giới thiệu  </span></a>
+                </li>
+                <li class=""> 
+                  <a href="#" class=""><span>Tin tức sự kiện </span></a>
+                    <ul class="submnu1">
+                        <li class=""><a href="#">Tin tức sự kiện 1</a>
+                        </li>
+                        <li class=""><a href="#">Tin tức sự kiện 2</a>
+                        </li>
+                        <li class=""><a href="#">Tin tức sự kiện 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=""> 
+                  <a href="#" class=""><span>Học bổng</span></a>  
+                  <ul class="submnu1">
+                    <li class=""><a href="#">Học bổng thạc sĩ</a>
+                    </li>
+                    <li class=""><a href="#">học bổng tiến sĩ</a>
+                    </li>
+                    <li class=""><a href="#">Học bổng đại học</a>
+                    </li>
+                    <li class=""><a href="#">Học bổng postdoc</a>
+                    </li>
+                </ul>     
+                </li>
+                <li class="">
+                   <a href="#" class=""><span>Khóa học </span></a>
+                     <ul class="submnu1">
+                        <li class=""><a href="#">Khóa học 2</a>
+                        </li>
+                        <li class=""><a href="#">Khóa học 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=""> 
+                  <a href="/du-an-dau-tu/" class=""><span>Kênh thu hút nhà khoa học </span></a>     
+                    
+                </li>
+                <li class=""> 
+                  <a href="/du-an-dau-tu/" class=""><span>Chương trình trao đổi</span></a>     
+                    
+                </li>
+                <li class=""> 
+                  <a href="/lien-he/" class=""><span>Kết nối nghiên cứu</span></a>      
+                </li>         
+                </ul>
+                 
+              <div class="c"></div>
+            </div>
+        </div>
+      </div>
+      <style>
+
+      </style>
+      <div class="c"></div>
+    </header>
+    <!-- end header pc -->
+    <div class="hide-on-pc">
+        <div class="top-header">
+          <div class="title-image">
+            <img src="/uploaded/files/header-title.png" alt="">
+          </div>
+          <div class="lang">
+            <a href="#" class="vi"></a>
+            <a href="#" class="en"></a>
+          </div>
+        </div>
+        <div class="header-mb">
+          <a href="logo">
+            <img src="/uploaded/logo/logo.png" alt="">
+          </a>
+          <a class="menu-mobile" href='#menu'><i class='fa fa-list'></i></a>
+         
+        </div>
+    </div>
+  
+    <!-- content -->
+    <div class="content">
+          <!-- slideshow -->
+        <div class="banner">
+          <div class="swiper-container" id="slide_home">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slidehome">
+                  <img src="/uploaded/slideshow/banner-index1.png" alt="">    
+                  
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidehome">
+                  <img src="/uploaded/slideshow/banner-index1.png" alt="">    
+                  
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidehome">
+                  <img src="/uploaded/slideshow/banner-index1.png" alt="">    
+                
+                </div>
+              </div>
+              
+            
+          </div>
+            <div class="slider__controls">
+               <div class="slider__pagination"></div>
+            </div>
+          <!-- end slideshow -->
+          </div> 
+          <script>
+  
+            var swiper = new Swiper("#slide_home", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                loop: true,
+                grabCursor: true,
+                pagination: {
+                  el: '.slider__pagination',
+                  clickable: true,
+                },
+                autoplay: {
+                  delay: 5000,
+                },
+                 });
+               
+          </script>
+        </div>
+         <div class="thanhcong-wrapper">
+            <div class="grid">
+                <div class="crumb">
+                    <a href="#">Trang chủ</a>
+                    <a href="#">Giới thiệu</a>
+                </div>
+                <div class="c30"></div>
+                <div class="c20"></div>
+              
+               
+                <div class="mnutab-page">
+                <div class="menutab">
+                                              
+                    <div class="menutab-item actived ">
+                        <a class="" href="/tai-tro-truc-tiep-bang-tien-mat/">Thành công</a>
+                    </div>
+            
+                    <div class="menutab-item  ">
+                        <a class="" href="/tai-tro-qua-ngan-hang/">Vinh danh</a>
+                    </div>
+                    
+                </div>
+                </div>
+                <div class="c30"></div>
+                <div class="title-wrapper flex-centered">
+                    <h2>
+                        Thành công
+                    </h2>
+                   
+                </div>
+                <div class="c30"></div>
+                <div class="c20"></div>
+                <div class="flex-container">
+                    <div class="cell-1-2 tab-cell-1-1">
+                        <div class="thanhcong-item">
+                            <div class="thanhcong-item--image">
+                                <a href="#" class="img-shine">
+                                  <img src="/uploaded/about/user1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="thanhcong-item--desc">
+                                <a href="#">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                </a>
+                                <div class="thanhcong-item--intro">
+                                  Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user2.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                    <div class="thanhcong-item">
+                        <div class="thanhcong-item--image">
+                            <a href="#" class="img-shine">
+                              <img src="/uploaded/about/user3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="thanhcong-item--desc">
+                            <a href="#">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            </a>
+                            <div class="thanhcong-item--intro">
+                              Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user3.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user4.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user1.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user2.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                    <div class="thanhcong-item">
+                        <div class="thanhcong-item--image">
+                            <a href="#" class="img-shine">
+                              <img src="/uploaded/about/user3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="thanhcong-item--desc">
+                            <a href="#">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            </a>
+                            <div class="thanhcong-item--intro">
+                              Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user3.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user4.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  
+                   <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user2.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                    <div class="thanhcong-item">
+                        <div class="thanhcong-item--image">
+                            <a href="#" class="img-shine">
+                              <img src="/uploaded/about/user3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="thanhcong-item--desc">
+                            <a href="#">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            </a>
+                            <div class="thanhcong-item--intro">
+                              Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user3.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user4.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user1.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                      <div class="thanhcong-item">
+                          <div class="thanhcong-item--image">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/about/user1.png" alt="">
+                              </a>
+                          </div>
+                          <div class="thanhcong-item--desc">
+                              <a href="#">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                              </a>
+                              <div class="thanhcong-item--intro">
+                                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  
+
+                </div>
+              
+                <div id="simplePagerNav">
+                  <div class="paging1 pagination ">
+                      <a href="/danh-muc-dau-tu/page-1/" class="page disabled">
+                          <span>
+                              <strong>
+                                   <i class="fa fa-angle-double-left pagination-item-icon"></i>  
+                               </strong>
+                          </span>
+                      </a>
+                      <a href="/danh-muc-dau-tu/page-1/" class="page disabled"><span><strong> 
+                          <i class="fa fa-angle-left pagination-item-icon"></i>
+                       </strong>
+                      </span>
+                  </a>
+                  <a class="clicked pagination-item__clicked">
+                      <span>1</span>
+                  </a>
+                  <a href="/danh-muc-dau-tu/page-2/" class="page pagination-item">
+                      <span>2</span>
+                  </a>
+                  <a href="/danh-muc-dau-tu/page-2/" class="page pagination-item">
+                      <span>3</span>
+                  </a>
+                   <a href="/danh-muc-dau-tu/page-2/" class="page ">
+                       <span>
+                           <strong> 
+                               <i class="fa fa-angle-right pagination-item-icon"></i>
+                          </strong>
+                      </span>
+                  </a>
+                  <a href="/danh-muc-dau-tu/page-2/" class="page ">
+                      <span>
+                      <strong>
+                        <i class="fa fa-angle-double-right pagination-item-icon"></i>
+
+                      </strong>
+                  </span>
+                  </a>
+              </div>
+              </div>
+              <div class="c30"></div>
+                
+            </div>
+         </div>
+  
+       </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-top">
+          <div class="grid">
+            <div class="flex-container">
+                <div class="cell-1-4 tab-cell-1-2">
+                      <a href="#">
+                          <img src="/uploaded/logo/logocut.png" alt=""> 
+                          <div class="footer-top--title">
+                              Website VNU
+                          </div>
+                      </a>
+                </div>
+                <div class="cell-1-4 tab-cell-1-2">
+                  <a href="#">
+                      <img src="/uploaded/ico/facebook.png" alt=""> 
+                      <div class="footer-top--title">
+                          Group Facebook
+                      </div>
+                  </a>
+                </div>
+              <div class="cell-1-4 tab-cell-1-2">
+                <a href="#">
+                    <img src="/uploaded/ico/zalo.png" alt=""> 
+                    <div class="footer-top--title">
+                      Zalo câu lạc bộ
+                    </div>
+                </a>
+              </div> 
+              <div class="cell-1-4 tab-cell-1-2">
+              <a href="#">
+                <img src="/uploaded/ico/facebook.png" alt=""> 
+                  <div class="footer-top--title">
+                    Fanpage
+                  </div>
+              </a>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div class="flex-container  hide-on-pad hide-on-mobile">       
+          <div class="footer-left">
+              <img src="/uploaded/logo/logo.png" alt="">
+            <div class="footer-title footer-title-mobile" rel="ct">
+              Liên kết MXH
+              </div>
+            <ul class="footer-social">
+            
+              <li class="facebook  hvr-float">
+                <a href="" class="footer-social__item">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="youtube  hvr-float">
+                <a href="" class="footer-social__item">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="linkedin  hvr-float">
+                <a href="" class="footer-social__item">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="instagram  hvr-float">
+                <a href="" class="footer-social__item">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+             
+            </ul>
+            <div class="footer-copyright">
+              <div class="grid">
+                Copyright © 2022 VNU
+              </div>
+            </div>
+          </div>
+          <div class="footer-right">
+            <div class="flex-container">
+              <div class="cell-2-4 tab-cell-1-1">
+                  <div class="footer-title footer-title-mobile" rel="ct">
+                    Trung tâm Dự báo và Phát triển nguồn nhân lực 
+                  </div>
+                  <div class="footer-infor">
+                      <p>ĐC: Nhà G8, 144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+
+                      <p>Giấy phép số 993/GP-TTĐT ngày 20/3/2020 của Sở Thông tin và Truyền thông Hà Nội</p>
+                    </div>
+              </div>
+             <div class="cell-1-4 tab-cell-1-1">
+                <div class="footer-block">
+                  <div class="footer-title footer-title-mobile" rel="ct">
+                      Liên hệ
+                  </div>
+                  <div class="footer-infor">
+                   
+                    <a href="tel:024 66.841.732">Hotline: 024 66.841.732</a> <br>
+                    <a href="mailto:info.hdc.vnu@gmail.com">Email: info.hdc.vnu@gmail.com   </a> <br>
+                    <a href="#"> Website: hdc.vnu.edu.vn</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="cell-1-4 tab-cell-1-1">
+                <div class="footer-block">
+                  <div class="footer-title footer-title-mobile" rel="ct">
+                      Đăng ký nhận tin
+                  </div>
+                
+                  <form action="" method="post" class="sendmail__frm">
+  
+                    <input type="text" name="newsletter" class="sendmail__input" placeholder="Email của bạn">
+  
+                    <button type="submit" name="addnewsletter" value="save" class="sendmail__btn">
+                      Đăng Ký
+                    </button>
+                  </form>
+  
+                </div>
+              </div>
+            </div>
+          </div> 
+      </div>
+      <div class="footer hide-on-pc">
+        <div class="flex-container">
+          <div class="footer-logo-mb">
+            <img src="/uploaded/logo/logo.png" alt="">
+          </div>
+          <div class="footer-mb">
+            <div class="flex-container">
+              <div class="cell-2-4 tab-cell-1-1">
+                <div class="footer-title footer-title-mobile" rel="ct">
+                  Trung tâm Dự báo và Phát triển nguồn nhân lực 
+                </div>
+                <div class="footer-infor">
+                    <p>ĐC: Nhà G8, 144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+    
+                    <p>Giấy phép số 993/GP-TTĐT ngày 20/3/2020 của Sở Thông tin và Truyền thông Hà Nội</p>
+                  </div>
+                </div>
+              <div class="cell-1-4 tab-cell-1-1">
+                  <div class="footer-block">
+                    <div class="footer-title footer-title-mobile" rel="ct">
+                        Liên hệ
+                    </div>
+                    <div class="footer-infor">
+                    
+                      <a href="tel:024 66.841.732">Hotline: 024 66.841.732</a> <br>
+                      <a href="mailto:info.hdc.vnu@gmail.com">Email: info.hdc.vnu@gmail.com   </a> <br>
+                      <a href="#"> Website: hdc.vnu.edu.vn</a>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="cell-1-4 tab-cell-1-1">
+                  <div class="footer-block">
+                    <div class="footer-title footer-title-mobile" rel="ct">
+                        Đăng ký nhận tin
+                    </div>
+                  
+                    <form action="" method="post" class="sendmail__frm">
+    
+                      <input type="text" name="newsletter" class="sendmail__input" placeholder="Email của bạn">
+    
+                      <button type="submit" name="addnewsletter" value="save" class="sendmail__btn">
+                        Đăng Ký
+                      </button>
+                    </form>
+    
+                  </div>
+                </div>
+                <div class="footer-copyright">
+                  <div class="grid">
+                    Copyright © 2022 VNU
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    
+    <!-- end footer -->
+    </div>
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="#">About</a>
+      <ul>
+        <li><a href="https://s.codepen.io/georgemarts/debug/0aa033477732634485c3f04b17321ccb?">History<span>Click me</span></a></li>
+        <li><a href="#">Vision</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Clients</a></li>
+    <li><a href="#">News</a></li>
+    <li>
+      <a href="#">Contact</a>
+      <ul>
+        <li>
+          <a href="#">Social Media</a>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </li>
+    <li class="plugin"><a href="http://mmenu.frebsite.nl/" targey="_blank">mmenu.js</a></li>
+  </ul>
+</nav>
+  <div class="social-fixed">
+      <div class="right-hotline">
+        <a href="tel:"><i class="fas fa-phone-alt"></i></a>
+    </div>
+    <!-- <div class="right-email">
+        <a href="mailto:"><i class="fas fa-envelope-open-text"></i></a>
+    </div> -->
+    <div class="right-zalo">
+      <a href="#"><img src="/images/zalo.png" alt=""></a>
+  </div>
+    <div class="right-messenger">
+      <a href="#"><img src="/images/mess.png" alt=""></a>
+    </div>
+   
+
+  </div>
+  <link rel="stylesheet" href="/css/jquery.fancybox.css" />
+  <script src="/js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="/css/hover.css" />
+
+  
+</body>
+
+</html>
+

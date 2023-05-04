@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>VNU</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+  <meta name="theme-color" content="#0099ff" />
+  <meta http-equiv="Content-Language" content="VN" />
+  <meta name="description" content="VNU" />
+  <meta name="keywords" content="" />
+  <meta property="og:url" name="og:url" content="" data-app />
+  <meta property="og:type" name="og:type" content="website" data-app />
+  <meta property="og:description" name="og:description" content="VNU" data-app />
+  <meta property="og:title" name="og:title" content="VNU" data-app />
+  <meta property="og:image" name="og:image" content="http://tonvietphap.24h.co/uploaded/logo/logo.png" data-app />
+
+  <link href="/favicon.png" rel="shortcut icon" />
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <link rel="stylesheet" type="text/css" href="/css/grid.css" />
+  <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+  <link rel="stylesheet" type="text/css" href="/css/swiper.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/fonts/myriad-pro-cufonfonts-webfont/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/fontawesome-5.12.1/fontanwesome-pro/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/jquery.mmenu.all.css" />
+  <link rel="stylesheet" href="/css/jquery-ui.css" />
+  <script src="/js/jquery-1.10.1.min.js"></script>
+  <script src="/js/swiper.min.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/jquery.form.min.js"></script>
+  <script src="/js/jquery.mmenu.min.all.js"></script>
+  <script src="/js/jquery.quick.pagination.min.js"></script>
+</head>
+
+<body>
+<div id="page">
+    <!-- header pc -->
+    <div class="header-login">
+        <div class="grid">
+          <div class="flex-container flex-flex-end">
+            
+                <a href="#" class="btn btn-dangnhap"> <i class="fas fa-sign-in"></i> Đăng nhập</a>
+                <a href="#" class="btn btn-dangky"><i class="far fa-user"></i> Đăng ký thành viên</a>
+           
+        </div>
+        </div>
+    </div>
+    <div class="top-header hide-on-pad  hide-on-mobile">
+        <div class="grid">
+            <div class="flex-container align-center">
+                <div class="cell-2-3 tab-cell-1-1">
+                    <div class="d-flex align-center">
+                      <a href="/templates/index.html">  <img class="logo"  src="/uploaded/logo/logo.png" alt=""></a>
+                      <div class="title-image">
+                        <img src="/uploaded/files/header-title.png" alt="">
+                      </div>
+                    </div>
+                </div>
+                <div class="cell-1-3 hide-on-mobile ">
+                  <div class="search-pc">
+                    <form action="/search/" method="get" id="searchformtab">
+                      <input name="qr" class="kw" placeholder="Tìm kiếm " type="text">
+                        <a href="#" class="submit-search-pc" onClick="$('#searchformtab').submit();
+                            return false;">  <i class="fa fa-search" aria-hidden="true"></i> </a>
+  
+                     
+                    </form>
+                  </div>
+                  <div class="nav-topheader">
+                    <div class="lang">
+                      <a href="#" class="vi"></a>
+                      <a href="#" class="en"></a>
+                    </div>
+                   
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header class="header hide-on-pad hide-on-tab">
+      <div class="grid">
+
+        <div class="flex-container flex-centered">
+            <div class="menubar">
+              <ul class="nav  hide-on-mobile">
+                <li class="">
+                   <a href="/templates/about1.html" class=""><span> Giới thiệu  </span></a>
+                </li>
+                <li class=""> 
+                  <a href="#" class=""><span>Tin tức sự kiện </span></a>
+                    <ul class="submnu1">
+                        <li class=""><a href="#">Tin tức sự kiện 1</a>
+                        </li>
+                        <li class=""><a href="#">Tin tức sự kiện 2</a>
+                        </li>
+                        <li class=""><a href="#">Tin tức sự kiện 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=""> 
+                  <a href="#" class=""><span>Học bổng</span></a>  
+                  <ul class="submnu1">
+                    <li class=""><a href="#">Học bổng thạc sĩ</a>
+                    </li>
+                    <li class=""><a href="#">học bổng tiến sĩ</a>
+                    </li>
+                    <li class=""><a href="#">Học bổng đại học</a>
+                    </li>
+                    <li class=""><a href="#">Học bổng postdoc</a>
+                    </li>
+                </ul>     
+                </li>
+                <li class="">
+                   <a href="#" class=""><span>Khóa học </span></a>
+                     <ul class="submnu1">
+                        <li class=""><a href="#">Khóa học 2</a>
+                        </li>
+                        <li class=""><a href="#">Khóa học 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=""> 
+                  <a href="/du-an-dau-tu/" class=""><span>Kênh thu hút nhà khoa học </span></a>     
+                    
+                </li>
+                <li class=""> 
+                  <a href="/du-an-dau-tu/" class=""><span>Chương trình trao đổi</span></a>     
+                    
+                </li>
+                <li class=""> 
+                  <a href="/lien-he/" class=""><span>Kết nối nghiên cứu</span></a>      
+                </li>         
+                </ul>
+                 
+              <div class="c"></div>
+            </div>
+        </div>
+      </div>
+      <style>
+
+      </style>
+      <div class="c"></div>
+    </header>
+    <!-- end header pc -->
+    <div class="hide-on-pc">
+        <div class="top-header">
+          <div class="title-image">
+            <img src="/uploaded/files/header-title.png" alt="">
+          </div>
+          <div class="lang">
+            <a href="#" class="vi"></a>
+            <a href="#" class="en"></a>
+          </div>
+        </div>
+        <div class="header-mb">
+          <a href="logo">
+            <img src="/uploaded/logo/logo.png" alt="">
+          </a>
+          <a class="menu-mobile" href='#menu'><i class='fa fa-list'></i></a>
+         
+        </div>
+    </div>
+  
+    <!-- content -->
+    <div class="content">
+       
+       
+        <div class="newsdetail-wrapper">
+            <div class="grid">
+                <div class="flex-container">
+                    <div class="cell-2-3">
+                      <div class="c30"></div>
+                        <h2 class="title">
+                            Nâng cao năng lực thực hiện dự án đầu tư theo phương thức đối tác công tư tại Đại học Quốc gia Hà Nội
+                        </h2>
+                    </div>
+                    <div class="cell-2-3 tab-cell-1-1">
+                                       
+                        <div class="content-detail">
+                        
+                            <b class="intro-detail" >
+                            <table border="0" cellpadding="0px" cellspacing="0px">
+                                <tbody>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Trong 2 ng&agrave;y 18 v&agrave; 19/4/2023, ĐHQGHN tổ chức kh&oacute;a tập huấn n&acirc;ng cao năng lực thực hiện dự &aacute;n đầu tư theo phương thức đối t&aacute;c c&ocirc;ng tư (PPP) tại ĐHQGHN cho gần 70 c&aacute;n bộ phụ tr&aacute;ch c&ocirc;ng t&aacute;c triển khai c&aacute;c dự &aacute;n ở ĐHGQHN.</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        <p>&nbsp;</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </b>
+                            
+                            <div class="c10"></div>
+                            <div class="ct">
+                                <table class="tblnews_conten_cate" >
+                                    <tbody style="margin:0px; padding:0px">
+                                        <tr style="margin:0px; padding:0px">
+                                            <td class="td_short_news" style="margin:0px; padding:0px 10px; text-align:justify; background-color:#ffffff"><span style="font-size:13px"><span style="font-family:Arial"><span style="color:#393939"><span style="font-weight:bold">Trong 2 ng&agrave;y 18 v&agrave; 19/4/2023, ĐHQGHN tổ chức kh&oacute;a tập huấn n&acirc;ng cao năng lực thực hiện dự &aacute;n đầu tư theo phương thức đối t&aacute;c c&ocirc;ng tư (PPP) tại ĐHQGHN cho gần 70 c&aacute;n bộ phụ tr&aacute;ch c&ocirc;ng t&aacute;c triển khai c&aacute;c dự &aacute;n ở ĐHGQHN.</span></span></span></span></td>
+                                        </tr>
+                                        <tr style="margin:0px; padding:0px">
+                                            <td class="td_content_news" style="margin:0px; padding:10px 10px 0px; text-align:justify; background-color:#ffffff">
+                                            <p style="margin:0px; padding:0px; text-align:justify">&nbsp;</p>
+                                
+                                            <p style="margin:0px; padding:0px"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a">&nbsp;<img alt="" src="https://www.vnu.edu.vn/upload/2023/04/32775/2023_04_18_T%E1%BA%ADp%20hu%E1%BA%A5n%20PPP%20(8).JPG" style="margin:0px; padding:0px; width:650px; height:433px" /></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><span style="font-size:10pt; margin:0px; padding:0px"><span style="line-height:20px"><span style="font-family:Arial, sans-serif">Ph&oacute; Gi&aacute;m đốc ĐHQGHN Nguyễn Hiệu đ&atilde; tới dự v&agrave; ph&aacute;t biểu khai mạc hội nghị.</span></span></span></span></span></span></span></p>
+                                
+                                         
+                                            <p style="margin:12pt 0in; padding:0px; text-align:center"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><em style="margin:0px; padding:0px">B&agrave; Trần Thị Thanh T&uacute;, Trưởng Ban X&uacute;c tiến Đầu tư ĐHQGHN ph&aacute;t biểu tại hội nghị</em></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><span style="font-size:10pt; margin:0px; padding:0px"><span style="line-height:20px"><span style="font-family:Arial, sans-serif">Kh&oacute;a tập huấn được tổ chức nhằm chuẩn bị cho việc thực hiện c&aacute;c dự &aacute;n đầu tư theo phương thức đối t&aacute;c c&ocirc;ng tư (PPP) tại ĐHQGHN; cụ thể h&oacute;a nội dung hỗ trợ ĐHQGHN: &ldquo;Ph&aacute;t triển năng lực để thực hiện dự &aacute;n PPP&rdquo; của ph&iacute;a ADB theo Bi&ecirc;n bản ghi nhớ được k&yacute; kết giữa hai b&ecirc;n ng&agrave;y 08/3/2023.</span></span></span></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><span style="font-size:10pt; margin:0px; padding:0px"><span style="line-height:20px"><span style="font-family:Arial, sans-serif">Khai mạc hội nghị tập huấn Ph&oacute; Gi&aacute;m đốc ĐHQGHN Nguyễn Hiệu cho biết: việc thu h&uacute;t đầu tư v&agrave;o Khu đ&ocirc; thị Đại học Quốc gia H&agrave; Nội tại H&ograve;a Lạc l&agrave; đ&ograve;n bẩy cho sự ph&aacute;t triển đ&ocirc; thị đại học th&ocirc;ng minh theo tinh thần chỉ đạo của Thủ tướng Ch&iacute;nh phủ. ĐHQGHN đang x&acirc;y dựng dự thảo quy tr&igrave;nh hướng dẫn thực hiện đầu tư theo phương thức PPP tại ĐHQGHN, thể hiện quyết t&acirc;m của ĐHQGHN trong việc c&ocirc;ng khai, minh bạch quy tr&igrave;nh giải quyết c&ocirc;ng việc. ĐHQGHN c&oacute; 3 thế mạnh ch&iacute;nh để ph&aacute;t triển: nguồn nh&acirc;n lực chất lượng cao, cơ chế tự chủ v&agrave; kh&ocirc;ng gian đ&ocirc; thị đại học H&ograve;a Lạc thuận lợi trong hợp t&aacute;c nghi&ecirc;n cứu, chuyển giao c&ocirc;ng nghệ.</span></span></span></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><span style="font-size:10pt; margin:0px; padding:0px"><span style="line-height:20px"><span style="font-family:Arial, sans-serif">Đầu tư theo phương thức đối t&aacute;c c&ocirc;ng tư l&agrave; một lĩnh vực mới đối với những người l&agrave;m c&ocirc;ng t&aacute;c t&agrave;i ch&iacute;nh, dự &aacute;n của ĐHQGHN. Nhiều vấn đề kh&oacute; khăn trong qu&aacute; tr&igrave;nh dự kiến triển khai c&aacute;c nội dung trong lĩnh vực n&agrave;y như chọn nh&agrave; đầu tư, ch&iacute;nh s&aacute;ch t&agrave;i ch&iacute;nh, chia sẻ rủi ro, ph&aacute;t triển bền vững, an to&agrave;n, &hellip;</span></span></span></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><span style="font-size:10pt; margin:0px; padding:0px"><span style="line-height:20px"><span style="font-family:Arial, sans-serif">Tại kh&oacute;a tập huấn, c&aacute;c chuy&ecirc;n gia đến từ Bộ Kế hoạch v&agrave; Đầu tư, Ng&acirc;n h&agrave;ng Ph&aacute;t triển Ch&acirc;u &Aacute; (ADB) chia sẻ những b&agrave;i học thực tế, gi&aacute; trị cốt l&otilde;i trong c&ocirc;ng t&aacute;c đầu tư PPP; những kinh nghiệm thực tiễn để thực hiện hợp t&aacute;c c&ocirc;ng tư tại ĐHQGHN một c&aacute;ch an to&agrave;n v&agrave; ph&aacute;t triển bền vững.</span></span></span></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><span style="font-size:10pt; margin:0px; padding:0px"><span style="line-height:20px"><span style="font-family:Arial, sans-serif">Qua kh&oacute;a tập huấn, học vi&ecirc;n sẽ thu nhận được kiến thức chuy&ecirc;n s&acirc;u về lĩnh vực hợp t&aacute;c c&ocirc;ng tư, đồng thời gia tăng t&iacute;nh tham mưu v&agrave; triển khai c&aacute;c dự &aacute;n, lựa chọn nh&agrave; đầu tư gi&uacute;p c&aacute;c dự &aacute;n của ĐHQGHN ph&aacute;t triển an to&agrave;n v&agrave; ph&aacute;t triển bền vững.</span></span></span></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><img alt="" src="https://www.vnu.edu.vn/upload/2023/04/32775/2023_04_18_T%E1%BA%ADp%20hu%E1%BA%A5n%20PPP%20(2).JPG" style="margin:0px; padding:0px; width:650px; height:433px" /></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><span style="font-size:10pt; margin:0px; padding:0px"><span style="line-height:20px"><span style="font-family:Arial, sans-serif">B&agrave; Vũ Quỳnh L&ecirc;, Ph&oacute; Cục trưởng Cục Quản l&yacute; Đầu thầu, Bộ Kế hoạch v&agrave; Đầu tư giới thiệu về đầu tư theo phương thức đối t&aacute;c c&ocirc;ng tư (PPP) trong đ&oacute;, chuy&ecirc;n gia n&ecirc;u r&otilde; về bức tranh tổng quan quy định ph&aacute;p luật hiện h&agrave;nh về PPP, bản chất của PPP, lợi &iacute;ch v&agrave; hạn chế của PPP, ph&acirc;n t&iacute;ch, so s&aacute;nh PPP với một số h&igrave;nh thức x&atilde; hội h&oacute;a m&agrave; c&aacute;c đơn vị sự nghiệp c&ocirc;ng lập như ĐHQGHN c&oacute; thể thực hiện (về cơ chế thực hiện, mối quan hệ giữa ĐHQGHN với nh&agrave; đầu tư, &hellip;). Những vấn đề về PPP gắn với ĐHQGHN, vai tr&ograve; cơ quan c&oacute; thẩm quyền; những vấn đề lưu &yacute; trong quy tr&igrave;nh dự &aacute;n PPP đặc biệt l&agrave; vấn đề lựa chọn h&igrave;nh thức hợp đồng.</span></span></span></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><img alt="" src="https://www.vnu.edu.vn/upload/2023/04/32775/2023_04_18_T%E1%BA%ADp%20hu%E1%BA%A5n%20PPP%20(5).JPG" style="margin:0px; padding:0px; width:650px; height:426px" /></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:center"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><em style="margin:0px; padding:0px">Ph&oacute; Gi&aacute;m đốc ĐHQGHN Nguyễn Hiệu b&agrave;y tỏ cảm ơn tới chuy&ecirc;n gia b&agrave; Vũ Quỳnh L&ecirc;</em></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><span style="font-size:10pt; margin:0px; padding:0px"><span style="line-height:20px"><span style="font-family:Arial, sans-serif">Dự kiến, v&agrave;o ng&agrave;y 19/4, b&agrave; Helen Steward, chuy&ecirc;n gia về quan hệ đối t&aacute;c c&ocirc;ng tư, Văn ph&ograve;ng Quan hệ đối t&aacute;c c&ocirc;ng tư ADB chia sẻ về: Kỹ năng tham gia trong quy tr&igrave;nh dự &aacute;n PPP, trong đ&oacute;, b&aacute;m s&aacute;t v&agrave;o c&aacute;c giai đoạn quy tr&igrave;nh dự &aacute;n: lập &ndash; thẩm định b&aacute;o c&aacute;o nghi&ecirc;n cứu tiền khả thi; b&aacute;o c&aacute;o nghi&ecirc;n cứu khả thi dự &aacute;n PPP; lựa chọn h&igrave;nh thức hợp đồng; c&aacute;c kỹ năng tham gia trong quy tr&igrave;nh dự &aacute;n PPP, trong đ&oacute; b&aacute;m s&aacute;t v&agrave;o c&aacute;c quy tr&igrave;nh dự &aacute;n như lựa chọn nh&agrave; đầu tư; thiết kế cấu tr&uacute;c hợp đồng; c&aacute;c điều khoản; triển khai hợp đồng dự &aacute;n PPP.</span></span></span></span></span></span></span></p>
+                                
+                                            <p style="margin:12pt 0in; padding:0px; text-align:justify"><span style="font-size:12px"><span style="font-family:Arial"><span style="color:#494a4a"><span style="line-height:18px"><img alt="" src="https://www.vnu.edu.vn/upload/2023/04/32775/2023_04_18_T%E1%BA%ADp%20hu%E1%BA%A5n%20PPP%20(6).JPG" style="margin:0px; padding:0px; width:650px; height:350px" /></span></span></span></span></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>             
+                        </div>
+                        <ul class="social">
+                          <li>
+                              <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                          </li>
+                          <li>
+                              <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                          </li>
+                          <li>
+                              <a href="" target="_blank"><i class="fas fa-envelope"></i></a>
+                          </li>   
+                      </ul> 
+                      <div class="c30"></div>
+                      <div class="line-w"></div> 
+                      <div class="c30"></div>
+                      <div class="eventlist">
+                        <div class="page-title">
+                          Bài viết cùng chuyên mục
+                      </div>
+                      <div class="c20"></div>
+                        <div class="flex-container" >
+                         
+                            <div class="cell-1-3 pad-cell-1-2 tab-cell-1-1">
+                                <div class="eventlist-item">
+                                  <a href="#" class="img-shine">
+                                    <img src="/uploaded/su-kien/item1.png" alt="">
+                                </a>
+                                <h3 class="title text-line-2">
+                                 <a href="#">
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                                 </a>
+                                </h3>
+                                </div>
+                              
+                            </div>  
+                            <div class="cell-1-3 pad-cell-1-2 tab-cell-1-1">
+                              <div class="eventlist-item">
+                                <a href="#" class="img-shine">
+                                  <img src="/uploaded/su-kien/item2.png" alt="">
+                              </a>
+                              <h3 class="title text-line-2">
+                               <a href="#">
+                                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                               </a>
+                              </h3>
+                              </div>
+                            </div>  
+                            <div class="cell-1-3 pad-cell-1-2 tab-cell-1-1">
+                              <div class="eventlist-item">
+                                <a href="#" class="img-shine">
+                                  <img src="/uploaded/su-kien/item3.png" alt="">
+                              </a>
+                              <h3 class="title text-line-2">
+                              <a href="#">
+                                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                              </a>
+                              </h3>
+                              </div>
+                            
+                            </div>  
+                            <div class="cell-1-3 pad-cell-1-2 tab-cell-1-1">
+                              <div class="eventlist-item">
+                                <a href="#" class="img-shine">
+                                  <img src="/uploaded/su-kien/item1.png" alt="">
+                              </a>
+                              <h3 class="title text-line-2">
+                               <a href="#">
+                                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                               </a>
+                              </h3>
+                              </div>
+                            
+                          </div>  
+                          <div class="cell-1-3 pad-cell-1-2 tab-cell-1-1">
+                            <div class="eventlist-item">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/su-kien/item2.png" alt="">
+                            </a>
+                            <h3 class="title text-line-2">
+                             <a href="#">
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                             </a>
+                            </h3>
+                            </div>
+                          </div>  
+                          <div class="cell-1-3 pad-cell-1-2 tab-cell-1-1">
+                            <div class="eventlist-item">
+                              <a href="#" class="img-shine">
+                                <img src="/uploaded/su-kien/item3.png" alt="">
+                            </a>
+                            <h3 class="title text-line-2">
+                            <a href="#">
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                            </a>
+                            </h3>
+                            </div>
+                          
+                          </div>  
+                        </div>
+                      
+                    </div>
+                    <div class="c30"></div>
+                    <div class="c20"></div>
+                    </div>
+  
+                    <div class="cell-1-3 tab-cell-1-1">
+                       
+                        <div class="featured-news">
+                            <div class="title-left">
+                                Bài viết nổi bật
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img-shine">
+                                    <img src="/uploaded/su-kien/item2.png"  width="100%" alt="">
+                                </a>
+                                <h3 class="text-line-3">
+                                    <a href="#"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.    </a>
+                                </h3>
+                            </div>
+                            <div class="item">
+                              <a href="#" class="img-shine">
+                                  <img src="/uploaded/su-kien/item2.png"  width="100%" alt="">
+                              </a>
+                              <h3 class="text-line-3">
+                                  <a href="#"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.    </a>
+                              </h3>
+                          </div>
+                          <div class="item">
+                            <a href="#" class="img-shine">
+                                <img src="/uploaded/su-kien/item2.png"  width="100%" alt="">
+                            </a>
+                            <h3 class="text-line-3">
+                                <a href="#"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.    </a>
+                            </h3>
+                        </div>
+                        <div class="item">
+                          <a href="#" class="img-shine">
+                              <img src="/uploaded/su-kien/item2.png"  width="100%" alt="">
+                          </a>
+                          <h3 class="text-line-3">
+                              <a href="#"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.    </a>
+                          </h3>
+                        </div>
+                   
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>	
+        
+    
+    
+    </div>
+       
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-top">
+          <div class="grid">
+            <div class="flex-container">
+                <div class="cell-1-4 tab-cell-1-2">
+                      <a href="#">
+                          <img src="/uploaded/logo/logocut.png" alt=""> 
+                          <div class="footer-top--title">
+                              Website VNU
+                          </div>
+                      </a>
+                </div>
+                <div class="cell-1-4 tab-cell-1-2">
+                  <a href="#">
+                      <img src="/uploaded/ico/facebook.png" alt=""> 
+                      <div class="footer-top--title">
+                          Group Facebook
+                      </div>
+                  </a>
+                </div>
+              <div class="cell-1-4 tab-cell-1-2">
+                <a href="#">
+                    <img src="/uploaded/ico/zalo.png" alt=""> 
+                    <div class="footer-top--title">
+                      Zalo câu lạc bộ
+                    </div>
+                </a>
+              </div> 
+              <div class="cell-1-4 tab-cell-1-2">
+              <a href="#">
+                <img src="/uploaded/ico/facebook.png" alt=""> 
+                  <div class="footer-top--title">
+                    Fanpage
+                  </div>
+              </a>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div class="flex-container  hide-on-pad hide-on-mobile">       
+          <div class="footer-left">
+              <img src="/uploaded/logo/logo.png" alt="">
+            <div class="footer-title footer-title-mobile" rel="ct">
+              Liên kết MXH
+              </div>
+            <ul class="footer-social">
+            
+              <li class="facebook  hvr-float">
+                <a href="" class="footer-social__item">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="youtube  hvr-float">
+                <a href="" class="footer-social__item">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="linkedin  hvr-float">
+                <a href="" class="footer-social__item">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="instagram  hvr-float">
+                <a href="" class="footer-social__item">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+             
+            </ul>
+            <div class="footer-copyright">
+              <div class="grid">
+                Copyright © 2022 VNU
+              </div>
+            </div>
+          </div>
+          <div class="footer-right">
+            <div class="flex-container">
+              <div class="cell-2-4 tab-cell-1-1">
+                  <div class="footer-title footer-title-mobile" rel="ct">
+                    Trung tâm Dự báo và Phát triển nguồn nhân lực 
+                  </div>
+                  <div class="footer-infor">
+                      <p>ĐC: Nhà G8, 144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+
+                      <p>Giấy phép số 993/GP-TTĐT ngày 20/3/2020 của Sở Thông tin và Truyền thông Hà Nội</p>
+                    </div>
+              </div>
+             <div class="cell-1-4 tab-cell-1-1">
+                <div class="footer-block">
+                  <div class="footer-title footer-title-mobile" rel="ct">
+                      Liên hệ
+                  </div>
+                  <div class="footer-infor">
+                   
+                    <a href="tel:024 66.841.732">Hotline: 024 66.841.732</a> <br>
+                    <a href="mailto:info.hdc.vnu@gmail.com">Email: info.hdc.vnu@gmail.com   </a> <br>
+                    <a href="#"> Website: hdc.vnu.edu.vn</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="cell-1-4 tab-cell-1-1">
+                <div class="footer-block">
+                  <div class="footer-title footer-title-mobile" rel="ct">
+                      Đăng ký nhận tin
+                  </div>
+                
+                  <form action="" method="post" class="sendmail__frm">
+  
+                    <input type="text" name="newsletter" class="sendmail__input" placeholder="Email của bạn">
+  
+                    <button type="submit" name="addnewsletter" value="save" class="sendmail__btn">
+                      Đăng Ký
+                    </button>
+                  </form>
+  
+                </div>
+              </div>
+            </div>
+          </div> 
+      </div>
+      <div class="footer hide-on-pc">
+        <div class="flex-container">
+          <div class="footer-logo-mb">
+            <img src="/uploaded/logo/logo.png" alt="">
+          </div>
+          <div class="footer-mb">
+            <div class="flex-container">
+              <div class="cell-2-4 tab-cell-1-1">
+                <div class="footer-title footer-title-mobile" rel="ct">
+                  Trung tâm Dự báo và Phát triển nguồn nhân lực 
+                </div>
+                <div class="footer-infor">
+                    <p>ĐC: Nhà G8, 144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam</p>
+    
+                    <p>Giấy phép số 993/GP-TTĐT ngày 20/3/2020 của Sở Thông tin và Truyền thông Hà Nội</p>
+                  </div>
+                </div>
+              <div class="cell-1-4 tab-cell-1-1">
+                  <div class="footer-block">
+                    <div class="footer-title footer-title-mobile" rel="ct">
+                        Liên hệ
+                    </div>
+                    <div class="footer-infor">
+                    
+                      <a href="tel:024 66.841.732">Hotline: 024 66.841.732</a> <br>
+                      <a href="mailto:info.hdc.vnu@gmail.com">Email: info.hdc.vnu@gmail.com   </a> <br>
+                      <a href="#"> Website: hdc.vnu.edu.vn</a>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="cell-1-4 tab-cell-1-1">
+                  <div class="footer-block">
+                    <div class="footer-title footer-title-mobile" rel="ct">
+                        Đăng ký nhận tin
+                    </div>
+                  
+                    <form action="" method="post" class="sendmail__frm">
+    
+                      <input type="text" name="newsletter" class="sendmail__input" placeholder="Email của bạn">
+    
+                      <button type="submit" name="addnewsletter" value="save" class="sendmail__btn">
+                        Đăng Ký
+                      </button>
+                    </form>
+    
+                  </div>
+                </div>
+                <div class="footer-copyright">
+                  <div class="grid">
+                    Copyright © 2022 VNU
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    
+    <!-- end footer -->
+    </div>
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="#">About</a>
+      <ul>
+        <li><a href="https://s.codepen.io/georgemarts/debug/0aa033477732634485c3f04b17321ccb?">History<span>Click me</span></a></li>
+        <li><a href="#">Vision</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Clients</a></li>
+    <li><a href="#">News</a></li>
+    <li>
+      <a href="#">Contact</a>
+      <ul>
+        <li>
+          <a href="#">Social Media</a>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </li>
+    <li class="plugin"><a href="http://mmenu.frebsite.nl/" targey="_blank">mmenu.js</a></li>
+  </ul>
+</nav>
+  <div class="social-fixed">
+      <div class="right-hotline">
+        <a href="tel:"><i class="fas fa-phone-alt"></i></a>
+    </div>
+    <!-- <div class="right-email">
+        <a href="mailto:"><i class="fas fa-envelope-open-text"></i></a>
+    </div> -->
+    <div class="right-zalo">
+      <a href="#"><img src="/images/zalo.png" alt=""></a>
+  </div>
+    <div class="right-messenger">
+      <a href="#"><img src="/images/mess.png" alt=""></a>
+    </div>
+   
+
+  </div>
+  <link rel="stylesheet" href="/css/jquery.fancybox.css" />
+  <script src="/js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="/css/hover.css" />
+
+  
+</body>
+
+</html>
